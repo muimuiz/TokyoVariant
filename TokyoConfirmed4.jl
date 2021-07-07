@@ -143,7 +143,7 @@ ssanalysis!(confirmed_df)
 @info "株別推定"
 @info "--------"
 @info "尤度データ取り込み"
-const likelihoods_csv_filepath = "../Variants/tokyo_variant_analysis4_likelihoods.csv"
+const likelihoods_csv_filepath = "tokyo_variant_analysis4_likelihoods.csv"
 @info likelihoods_csv_filepath
 likelihoods_df = CSV.read(likelihoods_csv_filepath, DataFrame; missingstring="NA")
 @info size(likelihoods_df)
