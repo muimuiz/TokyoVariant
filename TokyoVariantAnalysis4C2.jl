@@ -30,10 +30,13 @@ const date_ticks_dict = Dict(
     Date("2021-06-20") => "緊急事態宣言解除",
     Date("2021-07-01") => "2021\u201007\u201001",
     Date("2021-07-04") => "都議会議員選挙",
+    Date("2021-07-12") => "緊急事態宣言発令",
     Date("2021-07-15") => "07\u201015",
     Date("2021-07-23") => "オリンピック開会",
     Date("2021-08-01") => "2021\u201008\u201001",
+    Date("2021-08-08") => "オリンピック閉会",
     Date("2021-08-15") => "08\u201015",
+    Date("2021-08-22") => "宣言解除予定",
     Date("2021-09-01") => "2021\u201009\u201001",
 )
 const date_ticks_dates = sort(collect(keys(date_ticks_dict)))
@@ -49,10 +52,13 @@ const date_ticks_dict_en = Dict(
     Date("2021-06-20") => "End\\ of\\ the\\ SoE",
     Date("2021-07-01") => "2021\u201007\u201001",
     Date("2021-07-04") => "Assembly\\ election",
+    Date("2021-07-12") => "Decl.\\ of\\ the\\ SoE",
     Date("2021-07-15") => "07\u201015",
     Date("2021-07-23") => "Olympics\\ starts",
     Date("2021-08-01") => "2021\u201008\u201001",
+    Date("2021-08-08") => "Olympics\\ ends",
     Date("2021-08-15") => "08\u201015",
+    Date("2021-08-22") => "SoE\\ ends\\ (sched)",
     Date("2021-09-01") => "2021\u201009\u201001",
 )
 const date_ticks_dates_en = sort(collect(keys(date_ticks_dict_en)))
